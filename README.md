@@ -24,6 +24,8 @@ Objetivos do trabalho:
   - Posteriormente calcula-se os autovalores e autovetores da matriz de covariância
   - Os autovetores, ordenados em ordem descrescente de autovalores, possuem as principais componentes que serão utilizadas para projetar as eigenfaces. O trabalho proposto vai avaliar a acurácia do modelo aplicando entre 10 e 20 componentes principais.
   - A acurácia será o total das imagens de teste reconhecidas corretamente, dividido pela quantidade total de imagens de teste, multiplicado por 100.
+  
   Abaixo o resumo obtido por esta implementação:
   
+  ![image](https://user-images.githubusercontent.com/63163264/104857913-62f19580-58fa-11eb-9346-a399d1d6ee3a.png)
   
