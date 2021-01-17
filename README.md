@@ -17,6 +17,6 @@ Objetivos do trabalho:
   
   - Após importar e separar as imagens em treino e teste, já com tamanho padrão de 80 x 80 pixels e em escala de cinza, obteve-se a imagem média, que é a imagem média de todas as imagens de treino.
   - Após calcular a imagem média, cada imagem de treino foi corrigida em relação a imagem média, para que nenhuma coluna possa influenciar indevidamente o valor das componentes principais. A esta matriz foi dado o nome de **imagem_diff** gerando uma matriz com estas diferenças em relação a imagem média. Cada coluna desta matriz representa uma imagem.
-  - Com a matriz de diferenças, calcula-se a covariância
+  - Com a matriz de diferenças, calcula-se a covariância, neste caso utilizando, a **imagem_diff transposta x imagem_diff**. Neste ponto, diferente de outros métodos onde a covariância seria calculada **imagem_diff x imagem_diff transposta** 
    
 
