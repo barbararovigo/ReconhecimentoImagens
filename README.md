@@ -9,7 +9,8 @@ Neste repositório temos:
 Objetivos do trabalho:
   - Separar cada uma das 10 imagens em: 7 imagens para treino e 3 imagens para teste, ou seja, 70% das imagens serão usadas para treinar o algoritmo e 30% para testar se o mesmo reconhece aquela face (as imagens tanto de treino quanto de testes devem ser sorteadas aleatoriamente).
   - Foi utilizada a linguagem Python, porém foi optado em realizar os cálculos passo a passo. Em algumas etapas foi utilizado o OPENCV.
-  - A pasta ORL2 foi adicionada ao diretório raiz do Google Drive, e no colab foi optado por MontarDrive
+  - A pasta ORL2 foi adicionada ao diretório raiz do Google Drive, e no colab foi optado por MontarDrive:
+  
   
   
   
