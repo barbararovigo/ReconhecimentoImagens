@@ -8,12 +8,15 @@ Neste repositório temos:
   
 Objetivos do trabalho:
   - Separar cada uma das 10 imagens em: 7 imagens para treino e 3 imagens para teste, ou seja, 70% das imagens serão usadas para treinar o algoritmo e 30% para testar se o mesmo reconhece aquela face (as imagens tanto de treino quanto de testes devem ser sorteadas aleatoriamente).
-  - Foi utilizada a linguagem Python, porém foi optado em realizar os cálculos passo a passo. Em algumas etapas foi utilizado o OPENCV.
-  - A pasta ORL2 foi adicionada ao diretório raiz do Google Drive, e no colab foi optado por MontarDrive:
+  - Foi utilizada a linguagem Python, porém foi optado em realizar os cálculos de reconhecimento passo a passo. Em algumas etapas foi utilizado o OPENCV.
+  - A pasta ORL2 foi adicionada ao diretório raiz do Google Drive, e no colab, após abrir o arquivo **Recimages.ipynb**, selecionar a opção MontarDrive:
   
+  ![image](https://user-images.githubusercontent.com/63163264/104856524-ef4b8a80-58f1-11eb-82bd-e8d3c733e97b.png)
   
+  Desta forma, as imagens estarão acessíveis ao nosso programa
   
-  
-
-  
+  - Após importar e separar as imagens em treino e teste, já com tamanho padrão de 80 x 80 pixels e em escala de cinza, obteve-se a imagem média, que é a imagem média de todas as imagens de treino.
+  - Após calcular a imagem média, cada imagem de treino foi corrigida em relação a imagem média, para que nenhuma coluna possa influenciar indevidamente o valor das componentes principais. A esta matriz foi dado o nome de **imagem_diff** gerando uma matriz com estas diferenças em relação a imagem média. Cada coluna desta matriz representa uma imagem.
+  - Com a matriz de diferenças, calcula-se a covariância
+   
 
